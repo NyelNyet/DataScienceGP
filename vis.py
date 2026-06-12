@@ -40,7 +40,7 @@ print("Saved 2/4: Age Boxplot")
 plt.figure(figsize=(10, 6))
 # A histogram with a KDE (Kernel Density Estimate) line to clearly show the skew
 sns.histplot(df_clean_age['Mean_Salary'].dropna(), kde=True, bins=20, color='royalblue')
-plt.title('Distribution of Mean Monthly Salaries (Checking for Right-Skew)')
+plt.title('Distribution of Mean Monthly Salaries')
 plt.xlabel('Mean Monthly Salary (RM)')
 plt.ylabel('Frequency')
 plt.tight_layout()
